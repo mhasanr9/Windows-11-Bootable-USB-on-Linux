@@ -128,7 +128,9 @@ echo "=> Unmounting drives and syncing..."
 umount /mnt/ntfs
 umount /mnt/vfat
 umount /mnt/iso
-sync
+
+#Currently sync is not necessary as umount will do it for you on modern systems
+#sync
 
 echo "=> Cleaning up mount directories..."
 rmdir /mnt/ntfs /mnt/vfat /mnt/iso
