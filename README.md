@@ -31,7 +31,7 @@ This script requires a few standard Linux utilities to handle partitioning and f
 2. **Move your Windows `.iso` file** into the exact same folder as the script.
 3. Open your terminal in that folder and **make the script executable**:
 ```bash
-chmod +x make-win-usb.sh
+chmod +x win-boot-usb-maker.sh
 
 ```
 
